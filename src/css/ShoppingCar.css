@@ -1,0 +1,251 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* 头部样式 */
+  .header {
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* 导航条 */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(104, 96, 96);
+  }
+  
+  /* 导航链接 */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .font{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    margin-left: 20%;
+  }
+  
+  /* 链接 - 修改颜色 */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* 创建三个相等的列 */
+
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* 左右两侧宽度 */
+  .column.side {
+    width: 20%;
+  }
+  
+  /* 中间区域宽度 */
+  .column.middle {
+    width: 70%;
+  }
+   
+  /* 列后清除浮动 */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .logo{
+    float: left;
+    margin: 10px 10px;
+  }
+
+.t-column {
+    float: left;
+}
+.cart-thead {
+    display: inline-block;
+    display: block;
+    height: 40px;
+    line-height: 32px;
+    margin: 0 0 10px;
+    padding: 5px 0;
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+    border-top: 0;
+    position: relative;
+    font-size: 14px;
+}
+thead:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.t-checkbox {
+    height: 18px;
+    line-height: 18px;
+    padding-top: 7px;
+    width: 122px;
+    padding-left: 11px;
+}
+.t-goods {
+    margin-left: 50px;
+    width: 208px;
+}
+.t-props {
+    width: 80px;
+    height: 32px;
+    padding: 0 10px 0 20px;
+}
+.t-price {
+    width: 120px;
+    padding-right: 40px;
+    text-align: right;
+}
+.t-quantity {
+    width: 100px;
+    text-align: center;
+}
+.t-sum {
+    width: 150px;
+    padding-right: 60px;
+    text-align: right;
+}
+.t-action {
+    width: 100px;
+    text-align: center;
+}
+.item-item {
+    position: relative;
+    padding: 0 0 1px 40px;
+    border-top: 1px solid #c5c5c5;
+    line-height: 20px;
+    _height: 116px;
+    background: #fff;
+}
+.item-form {
+    border-top: 1px solid #f1f1f1;
+    display: block;
+}
+.p-checkbox {
+    position: absolute;
+    z-index: 3;
+    left: 10px;
+    top: 0;
+    width: 30px;
+    min-height: 10px;
+    _height: 10px;
+}
+.cell {
+    float: left;
+    padding: 15px 0 10px;
+}
+.cart-checkbox {
+    position: relative;
+    z-index: 3;
+    float: left;
+    margin-right: 5px;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+.cart-tbody .item-give .line-circle {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: -17px;
+    left: 2px;
+    height: 29px;
+    width: 7px;
+    background: url(//misc.360buyimg.com/user/cart/css/i/cart-line-02.png) 0 -17px no-repeat;
+}
+.p-goods {
+    width: 360px;
+}
+.goods-item {
+    display: inline-block;
+    display: block;
+}
+.goods-item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.p-name {
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.price{
+    line-height: 80px;
+    text-align: center;
+    position:absolute;
+    left:400px;
+}
+.amount{
+    margin-top:15px; 
+    text-align: center;
+    position:absolute;
+    left:500px;
+}
+.total{
+    line-height: 80px;
+    text-align: center;
+    position:absolute;
+    left:630px;
+}
+.action{
+    line-height: 80px;
+    text-align: center;
+    position:absolute;
+    left:750px;
+}
+.total-price{
+    float: left;
+    margin-left: 600px;
+    margin-top: 8px;
+    font-size:16px;
+    color: rgb(20, 96, 96)
+}
+.submit{
+    margin-left: 700px;
+    font-size: 24px
+}
+
+
+   
+  /* 响应式布局 - 小于 600 px 时改为上下布局 */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

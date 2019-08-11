@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e312c23.chunk.css",
+    "main.js": "/static/js/main.185c2664.chunk.js",
+    "main.js.map": "/static/js/main.185c2664.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.8ccda490.chunk.css": "/static/css/2.8ccda490.chunk.css",
+    "static/js/2.ddaf6085.chunk.js": "/static/js/2.ddaf6085.chunk.js",
+    "static/js/2.ddaf6085.chunk.js.map": "/static/js/2.ddaf6085.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a3f4fd8fea6344a4bbb9c2e55eeb87aa.js": "/precache-manifest.a3f4fd8fea6344a4bbb9c2e55eeb87aa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.8ccda490.chunk.css.map": "/static/css/2.8ccda490.chunk.css.map",
+    "static/css/main.5e312c23.chunk.css.map": "/static/css/main.5e312c23.chunk.css.map",
+    "static/media/01.jpg": "/static/media/01.4e8b71b2.jpg",
+    "static/media/bootstrap.css": "/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/shopping_car.jpg": "/static/media/shopping_car.d9e47422.jpg"
+  }
+}

@@ -1,0 +1,6 @@
+/* .thumbnail{
+    border:0;
+} */
+.thumbnail:hover{
+    border:1px solid rgb(100,100,100);
+}
